@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(97, 97, 97);
+}
+
+header{
+    padding: 10px;
+}
+
+#departures{
+    background-color: rgb(32, 32, 32);
+    padding: 15px;
+    box-shadow: -8px 8px #333333;
+    text-align: left;
+}
+
+#time{
+    min-width: 140px;
+}
+
+#destination{
+    min-width: 200px;
+}
+
+#flight{
+    min-width: 150px;
+}
+
+#gate{
+    min-width: 100px;
+}
+
+#remark{
+    min-width: 150px;
+}
+
